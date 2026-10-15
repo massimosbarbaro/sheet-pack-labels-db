@@ -1,5 +1,7 @@
 # Labels for packs of sheets by shipping order
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23398755.svg)](https://doi.org/10.5281/zenodo.23398755)
+
 *Etichette dei pacchi di fogli per ordine di spedizione*
 
 **db** · 1999–2001 · version 1.0  
@@ -43,9 +45,9 @@ The database is published **empty**: it has been rebuilt in a new file from the 
 
 ## How to cite
 
-Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*).
+Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23398755](https://doi.org/10.5281/zenodo.23398755).
 
-> Sbarbaro, Massimo. 2001. *Labels for packs of sheets by shipping order*. Software (db, 1999–2001), version 1.0. GitHub. https://github.com/massimosbarbaro/sheet-pack-labels-db.
+> Sbarbaro, Massimo. 2001. *Labels for packs of sheets by shipping order*. Software (db, 1999–2001), version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23398755.
 
 ## License
 
