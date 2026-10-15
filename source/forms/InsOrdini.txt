@@ -1,0 +1,493 @@
+Version =21
+VersionRequired =20
+Checksum =-1202781497
+Begin Form
+    RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    AutoCenter = NotDefault
+    CloseButton = NotDefault
+    DataEntry = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =9977
+    DatasheetFontHeight =10
+    ItemSuffix =34
+    Left =2205
+    Top =2130
+    Right =12180
+    Bottom =4740
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x99edf6f117bbe140
+    End
+    RecordSource ="Generale"
+    Caption ="Generale"
+    DatasheetFontName ="Arial"
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            OldBorderStyle =1
+            TextAlign =1
+            FontWeight =700
+            BackColor =8388608
+            BorderColor =8388608
+            ForeColor =16777215
+            FontName ="Arial"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =2
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderWidth =2
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            BackStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BorderColor =16776960
+        End
+        Begin CommandButton
+            FontItalic = NotDefault
+            Width =1701
+            Height =283
+            FontSize =8
+            ForeColor =-2147483630
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =4
+            BorderWidth =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =8388608
+        End
+        Begin CheckBox
+            SpecialEffect =4
+            BorderWidth =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =8388608
+        End
+        Begin OptionGroup
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BackColor =8421376
+            BorderColor =16776960
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =16776960
+        End
+        Begin TextBox
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =8421376
+            BorderColor =16776960
+            ForeColor =16777215
+            FontName ="Arial"
+        End
+        Begin ListBox
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =8421376
+            ForeColor =16777215
+            BorderColor =16776960
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =8421376
+            BorderColor =16776960
+            ForeColor =16777215
+            FontName ="Arial"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =16776960
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =16776960
+        End
+        Begin ToggleButton
+            FontItalic = NotDefault
+            Width =283
+            Height =283
+            FontSize =8
+            ForeColor =-2147483630
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            FontItalic = NotDefault
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontWeight =700
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =746
+            BackColor =10092543
+            Name ="IntestazioneMaschera"
+            Begin
+                Begin Label
+                    FontItalic = NotDefault
+                    OverlapFlags =85
+                    Left =1984
+                    Top =113
+                    Width =2745
+                    Height =390
+                    FontSize =14
+                    FontWeight =400
+                    Name ="Etichetta32"
+                    Caption ="Spedizioni di fogli"
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =9184
+                    Top =113
+                    Width =456
+                    Height =456
+                    Name ="Esci"
+                    Caption ="Comando33"
+                    OnClick ="MGenerale.Chiudi"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Esegui macro"
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+        Begin Section
+            Height =1870
+            BackColor =8421376
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =912
+                    Top =114
+                    Width =960
+                    Height =270
+                    ColumnWidth =2310
+                    Name ="Ordine"
+                    ControlSource ="Ordine"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =57
+                            Top =114
+                            Width =795
+                            Height =255
+                            Name ="Ordine Etichetta"
+                            Caption ="Ordine"
+                            EventProcPrefix ="Ordine_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =2614
+                    Top =113
+                    Width =735
+                    Height =270
+                    ColumnWidth =870
+                    TabIndex =1
+                    Name ="Data"
+                    ControlSource ="Data"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =1984
+                            Top =113
+                            Width =555
+                            Height =255
+                            Name ="Data Etichetta"
+                            Caption ="Data"
+                            EventProcPrefix ="Data_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =6008
+                    Top =680
+                    Width =945
+                    Height =270
+                    ColumnWidth =945
+                    TabIndex =7
+                    Name ="Peso"
+                    ControlSource ="Peso"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =4988
+                            Top =680
+                            Width =960
+                            Height =255
+                            Name ="Peso Etichetta"
+                            Caption ="Peso"
+                            EventProcPrefix ="Peso_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =8333
+                    Top =680
+                    Width =945
+                    Height =270
+                    ColumnWidth =945
+                    TabIndex =8
+                    Name ="Fogli"
+                    ControlSource ="Fogli"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =7313
+                            Top =680
+                            Width =960
+                            Height =255
+                            Name ="Fogli Etichetta"
+                            Caption ="Fogli"
+                            EventProcPrefix ="Fogli_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =8333
+                    Top =1247
+                    Width =945
+                    Height =270
+                    ColumnWidth =945
+                    TabIndex =9
+                    Name ="Pacco"
+                    ControlSource ="Pacco"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =7313
+                            Top =1247
+                            Width =960
+                            Height =255
+                            Name ="Pacco Etichetta"
+                            Caption ="Pacco"
+                            EventProcPrefix ="Pacco_Etichetta"
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    ListWidth =1440
+                    Left =4199
+                    Top =113
+                    Width =907
+                    Height =282
+                    TabIndex =2
+                    ColumnInfo ="\"\";\"\";\"10\";\"100\""
+                    Name ="Tipo"
+                    ControlSource ="Tipo"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT DISTINCTROW Generale.Tipo FROM Generale GROUP BY Generale.Tipo;"
+                    ColumnWidths ="1440"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =3458
+                            Top =113
+                            Width =630
+                            Height =240
+                            Name ="Tipo_Etichetta"
+                            Caption ="Tipo"
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    ListWidth =1440
+                    Left =6228
+                    Top =113
+                    Width =986
+                    Height =280
+                    TabIndex =3
+                    ColumnInfo ="\"\";\"\";\"10\";\"100\""
+                    Name ="Fintura"
+                    ControlSource ="Finitura"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT DISTINCTROW Generale.Finitura FROM Generale GROUP BY Generale.Finitura;"
+                    ColumnWidths ="1440"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =5215
+                            Top =113
+                            Width =900
+                            Height =240
+                            Name ="Finitura_Etichetta"
+                            Caption ="Finitura"
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    ListWidth =1440
+                    Left =8384
+                    Top =113
+                    Width =1252
+                    Height =273
+                    TabIndex =4
+                    ColumnInfo ="\"\";\"\";\"10\";\"100\""
+                    Name ="Formato"
+                    ControlSource ="formato"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT DISTINCTROW Generale.formato FROM Generale GROUP BY Generale.formato;"
+                    ColumnWidths ="1440"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =7313
+                            Top =113
+                            Width =960
+                            Height =240
+                            Name ="Formato_Etichetta"
+                            Caption ="Formato"
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    ListWidth =1440
+                    Left =959
+                    Top =680
+                    Width =1259
+                    Height =277
+                    TabIndex =5
+                    ColumnInfo ="\"\";\"\";\"10\";\"100\""
+                    Name ="Colore"
+                    ControlSource ="Colore"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT DISTINCTROW Generale.Colore FROM Generale GROUP BY Generale.Colore;"
+                    ColumnWidths ="1440"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =113
+                            Top =680
+                            Width =735
+                            Height =240
+                            Name ="Colore_Etichetta"
+                            Caption ="Colore"
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    ListWidth =1440
+                    Left =3460
+                    Top =680
+                    Width =1194
+                    Height =272
+                    TabIndex =6
+                    ColumnInfo ="\"\";\"\";\"4\";\"4\""
+                    Name ="Spessore"
+                    ControlSource ="Spessore"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT DISTINCTROW Generale.Spessore FROM Generale GROUP BY Generale.Spessore;"
+                    ColumnWidths ="1440"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =2494
+                            Top =680
+                            Width =915
+                            Height =240
+                            Name ="Spessore_Etichetta"
+                            Caption ="Spessore"
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =8421376
+            Name ="PièDiPaginaMaschera"
+        End
+    End
+End

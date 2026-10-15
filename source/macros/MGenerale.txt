@@ -1,0 +1,157 @@
+Version =131074
+ColumnsShown =3
+Begin
+End
+Begin
+    MacroName ="Generale"
+    Action ="RunCommand"
+    Argument ="58"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="SDati"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="-1"
+    Argument ="0"
+End
+Begin
+End
+Begin
+    MacroName ="Sbarbaro"
+    Action ="RunCommand"
+    Argument ="58"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="SSbarbaro"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="-1"
+    Argument ="0"
+End
+Begin
+End
+Begin
+    MacroName ="Chiudi"
+    Action ="RunCommand"
+    Argument ="58"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="SDati"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="-1"
+    Argument ="0"
+End
+Begin
+End
+Begin
+    MacroName ="ChiudiStampe"
+    Action ="RunCommand"
+    Argument ="58"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="Generale"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="-1"
+    Argument ="0"
+End
+Begin
+End
+Begin
+End
+Begin
+    MacroName ="Dati"
+    Action ="RunCommand"
+    Argument ="58"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="SDati"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="-1"
+    Argument ="0"
+End
+Begin
+End
+Begin
+End
+Begin
+    MacroName ="Immissione"
+    Action ="OpenForm"
+    Argument ="MATInserimento"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="0"
+    Argument ="0"
+End
+Begin
+End
+Begin
+    MacroName ="Modifica"
+    Action ="OpenForm"
+    Argument ="Materiale1"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="-1"
+    Argument ="0"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="Esistente"
+    Argument ="0"
+    Argument =""
+    Argument ="[RifDesc]=[Forms]![Materiale1]![RifDesc]"
+    Argument ="-1"
+    Argument ="1"
+End
+Begin
+End
+Begin
+End
+Begin
+    MacroName ="ModMagazzino"
+    Action ="OpenForm"
+    Argument ="Materiale"
+    Argument ="0"
+    Argument =""
+    Argument ="[RifDesc]=[Forms]![Esistente]![RifDesc]"
+    Argument ="-1"
+    Argument ="0"
+End
+Begin
+End
+Begin
+End
+Begin
+    MacroName ="Ricerche"
+    Action ="OpenForm"
+    Argument ="SStampe"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="-1"
+    Argument ="0"
+End
+Begin
+End
+Begin
+End
+Begin
+    MacroName ="Stampe"
+    Action ="OpenReport"
+    Argument ="Generale1"
+    Argument ="2"
+End

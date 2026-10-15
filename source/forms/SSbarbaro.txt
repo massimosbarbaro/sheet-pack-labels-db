@@ -1,0 +1,341 @@
+Version =21
+VersionRequired =20
+Checksum =506186482
+Begin Form
+    RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    CloseButton = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowEdits = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    RecordLocks =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =5102
+    DatasheetFontHeight =10
+    ItemSuffix =9
+    Left =4755
+    Top =1560
+    Right =9855
+    Bottom =5745
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x7e2a6dec74ace140
+    End
+    GUID = Begin
+        0xa4311177d2217743993e9c26793db82c
+    End
+    NameMap = Begin
+        0x0acc0e5500000000000000000000000000000000000000000c00000005000000 ,
+        0x0000000000000000000000000000
+    End
+    Caption ="Sbarbaro Engineering"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x8905000089050000890500008905000000000000ee1300002c0e000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =12
+            ForeColor =8388608
+            FontName ="Haettenschweiler"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            SpecialEffect =4
+            BackStyle =0
+            BorderWidth =3
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BorderColor =8421440
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =12
+            FontWeight =400
+            ForeColor =8388608
+            FontName ="Haettenschweiler"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =3
+            BorderWidth =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =8421440
+        End
+        Begin CheckBox
+            SpecialEffect =4
+            BorderWidth =3
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =8421440
+        End
+        Begin OptionGroup
+            SpecialEffect =4
+            BackStyle =1
+            BorderWidth =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BackColor =12632256
+            BorderColor =8421440
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =4
+            BorderWidth =3
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =8421440
+        End
+        Begin TextBox
+            SpecialEffect =4
+            BorderWidth =3
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =8421440
+            FontName ="Arial"
+        End
+        Begin ListBox
+            SpecialEffect =4
+            BorderWidth =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =8421440
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            SpecialEffect =4
+            BorderWidth =3
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =8421440
+            FontName ="Arial"
+        End
+        Begin Subform
+            SpecialEffect =4
+            BorderWidth =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =8421440
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =4
+            BackStyle =0
+            OldBorderStyle =1
+            BorderWidth =3
+            Width =4536
+            Height =2835
+            BorderColor =8421440
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =12
+            FontWeight =400
+            ForeColor =8388608
+            FontName ="Haettenschweiler"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontSize =12
+            FontName ="Haettenschweiler"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =0
+            BackColor =32768
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0xb42f7b1a6c551b42a42863aab873dae6
+            End
+        End
+        Begin Section
+            Height =4195
+            BackColor =13421619
+            Name ="Corpo"
+            GUID = Begin
+                0xafd53b844c09fb46967fec01793db8c5
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =453
+                    Top =1247
+                    Width =4140
+                    Height =1140
+                    FontSize =18
+                    BackColor =16777164
+                    Name ="Etichetta1"
+                    Caption ="Programma per la stampa delle etichette dei pacchi di fogli"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x46126a669b4011479b283b574017e77c
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OverlapFlags =85
+                    Left =1245
+                    Top =3690
+                    Width =780
+                    Height =300
+                    BackColor =16777164
+                    ForeColor =255
+                    Name ="Etichetta2"
+                    Caption ="21/06/99"
+                    GUID = Begin
+                        0xa245d9fbcab7a34aa5aec47cbee5cdb0
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    OverlapFlags =85
+                    Left =120
+                    Top =3690
+                    Width =1035
+                    Height =300
+                    BackColor =16777164
+                    Name ="Etichetta3"
+                    Caption ="Versione 3,3"
+                    GUID = Begin
+                        0x017335fd9062dd4590ada41e36f7be81
+                    End
+                End
+                Begin Label
+                    SpecialEffect =1
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    OverlapFlags =85
+                    TextFontFamily =18
+                    Left =735
+                    Top =2670
+                    Width =1500
+                    Height =345
+                    FontWeight =700
+                    BackColor =16763904
+                    Name ="Etichetta4"
+                    Caption ="Cominciamo ?"
+                    FontName ="Times New Roman"
+                    OnClick ="MGenerale.Generale"
+                    GUID = Begin
+                        0xa755e29249feb14a9b366a580309b531
+                    End
+                End
+                Begin Label
+                    SpecialEffect =1
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    OverlapFlags =85
+                    TextFontFamily =18
+                    Left =2610
+                    Top =2670
+                    Width =1125
+                    Height =345
+                    FontWeight =700
+                    BackColor =16763904
+                    Name ="Etichetta5"
+                    Caption ="Usciamo ?"
+                    FontName ="Times New Roman"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xd37e9cc7a9396a439cf7a08058b9f82f
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0xedf4768235b5764fb2872fb2abb1e244
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Private Sub Etichetta5_Click()
+On Error GoTo Err_Usciamo_Click
+
+
+    DoCmd.Quit
+
+Exit_Usciamo_Click:
+    Exit Sub
+
+Err_Usciamo_Click:
+    MsgBox Err.Description
+    Resume Exit_Usciamo_Click
+
+End Sub
+
+Private Sub Usciamo_Click()
+On Error GoTo Err_Usciamo_Click
+
+
+    DoCmd.Quit
+
+Exit_Usciamo_Click:
+    Exit Sub
+
+Err_Usciamo_Click:
+    MsgBox Err.Description
+    Resume Exit_Usciamo_Click
+    
+End Sub

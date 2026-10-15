@@ -1,0 +1,23 @@
+{
+  "title": "Labels for packs of sheets by shipping order (db, 1999–2001)",
+  "upload_type": "software",
+  "publication_date": "2001-06-28",
+  "description": "<p><em>Etichette dei pacchi di fogli per ordine di spedizione</em></p><p>A small application for the shipping department of a sheet producer. For each order the operator enters type, finish, format, colour, thickness, weight, number of sheets and pack number; the program prints one label per pack and keeps a log of the printed labels, which can be searched and reprinted.</p><p>Designed and programmed by Massimo Sbarbaro in 1999–2001 (db). Published in 2026; all original data and the names of client organisations have been removed.</p>",
+  "creators": [
+    {
+      "name": "Sbarbaro, Massimo",
+      "orcid": "0009-0006-8965-9013"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Microsoft Access",
+    "label printing",
+    "shipping",
+    "paper sheets",
+    "legacy software"
+  ],
+  "version": "1.0",
+  "language": "eng",
+  "notes": "Original development: 1999–2001."
+}

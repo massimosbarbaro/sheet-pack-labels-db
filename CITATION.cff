@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you refer to this software, please cite it as below."
+type: software
+title: "Labels for packs of sheets by shipping order (db, 1999–2001)"
+version: "1.0"
+abstract: "A small application for the shipping department of a sheet producer. For each order the operator enters type, finish, format, colour, thickness, weight, number of sheets and pack number; the program prints one label per pack and keeps a log of the printed labels, which can be searched and reprinted."
+authors:
+  - family-names: Sbarbaro
+    given-names: Massimo
+    orcid: "https://orcid.org/0009-0006-8965-9013"
+license: MIT
+date-released: "2001-06-28"
+repository-code: "https://github.com/massimosbarbaro/sheet-pack-labels-access"
+keywords:
+  - "Microsoft Access"
+  - "label printing"
+  - "shipping"
+  - "paper sheets"
+  - "legacy software"

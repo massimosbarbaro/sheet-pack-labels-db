@@ -1,0 +1,403 @@
+Version =21
+VersionRequired =20
+Checksum =-826283678
+Begin Report
+    LayoutForPrint = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =11050
+    DatasheetFontHeight =10
+    ItemSuffix =28
+    Left =600
+    Top =330
+    Right =13380
+    Bottom =7875
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xb859324b8dbde140
+    End
+    RecordSource ="Stampe"
+    Caption ="Generale1"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x6d010000000000006801000000000000000000002a2b0000b315000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =9
+            FontWeight =700
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            OldBorderStyle =0
+            TextFontFamily =18
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Times New Roman"
+        End
+        Begin ListBox
+            TextFontFamily =18
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Times New Roman"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            TextFontFamily =18
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Times New Roman"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Ordine"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =0
+            Name ="IntestazioneReport"
+        End
+        Begin PageHeader
+            Height =0
+            Name ="IntestazionePagina"
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =0
+            Name ="IntestazioneGruppo0"
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =5555
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    TextAlign =2
+                    Left =57
+                    Top =2155
+                    Width =1875
+                    Height =285
+                    FontSize =9
+                    Name ="Ordine"
+                    ControlSource ="Ordine"
+
+                    Begin
+                        Begin Label
+                            Left =57
+                            Top =1870
+                            Width =1875
+                            Height =300
+                            Name ="Ordine Etichetta"
+                            Caption ="Ordine                Order"
+                            EventProcPrefix ="Ordine_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =2
+                    Left =2267
+                    Top =2155
+                    Width =1665
+                    Height =285
+                    FontSize =9
+                    TabIndex =1
+                    Name ="Data"
+                    ControlSource ="Data"
+
+                    Begin
+                        Begin Label
+                            Left =2267
+                            Top =1870
+                            Width =1665
+                            Height =300
+                            Name ="Data Etichetta"
+                            Caption ="Data                 Date"
+                            EventProcPrefix ="Data_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =2
+                    Left =4422
+                    Top =2155
+                    Width =1770
+                    Height =285
+                    FontSize =9
+                    TabIndex =2
+                    Name ="Tipo"
+                    ControlSource ="Tipo"
+
+                    Begin
+                        Begin Label
+                            Left =4422
+                            Top =1870
+                            Width =1770
+                            Height =300
+                            Name ="Tipo Etichetta"
+                            Caption ="Tipo                    Type"
+                            EventProcPrefix ="Tipo_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =2
+                    Left =6633
+                    Top =2170
+                    Width =2040
+                    Height =270
+                    FontSize =9
+                    TabIndex =3
+                    Name ="Finitura"
+                    ControlSource ="Finitura"
+
+                    Begin
+                        Begin Label
+                            Left =6633
+                            Top =1870
+                            Width =2025
+                            Height =300
+                            Name ="Finitura Etichetta"
+                            Caption ="Finitura              Surface"
+                            EventProcPrefix ="Finitura_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =2
+                    Left =8900
+                    Top =2155
+                    Width =1650
+                    Height =285
+                    FontSize =9
+                    TabIndex =4
+                    Name ="formato"
+                    ControlSource ="formato"
+
+                    Begin
+                        Begin Label
+                            Left =8900
+                            Top =1870
+                            Width =1635
+                            Height =300
+                            Name ="formato Etichetta"
+                            Caption ="Formato           Size"
+                            EventProcPrefix ="formato_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =2
+                    Top =3285
+                    Width =3075
+                    Height =450
+                    FontSize =9
+                    TabIndex =5
+                    Name ="Colore"
+                    ControlSource ="Colore"
+
+                    Begin
+                        Begin Label
+                            Left =60
+                            Top =2955
+                            Width =2985
+                            Height =330
+                            Name ="Colore Etichetta"
+                            Caption ="Colore                                      Colour"
+                            EventProcPrefix ="Colore_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =2
+                    Left =3416
+                    Top =3286
+                    Width =2430
+                    Height =465
+                    FontSize =9
+                    TabIndex =6
+                    Name ="Spessore"
+                    ControlSource ="Spessore"
+
+                    Begin
+                        Begin Label
+                            Left =3401
+                            Top =2956
+                            Width =2820
+                            Height =330
+                            Name ="Spessore Etichetta"
+                            Caption ="Spessore                          Thickness"
+                            EventProcPrefix ="Spessore_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =2
+                    Left =6633
+                    Top =3286
+                    Width =1755
+                    Height =465
+                    FontSize =9
+                    TabIndex =7
+                    Name ="Peso"
+                    ControlSource ="Peso"
+
+                    Begin
+                        Begin Label
+                            Left =6633
+                            Top =2956
+                            Width =2040
+                            Height =330
+                            Name ="Peso Etichetta"
+                            Caption ="Peso                      Weight"
+                            EventProcPrefix ="Peso_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =2
+                    Left =9185
+                    Top =3286
+                    Width =1350
+                    Height =465
+                    FontSize =9
+                    TabIndex =8
+                    Name ="Fogli"
+                    ControlSource ="Fogli"
+
+                    Begin
+                        Begin Label
+                            Left =8900
+                            Top =2956
+                            Width =1650
+                            Height =330
+                            Name ="Fogli Etichetta"
+                            Caption ="Fogli             Sheets"
+                            EventProcPrefix ="Fogli_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =2
+                    Left =9186
+                    Top =4424
+                    Width =1350
+                    Height =375
+                    FontSize =9
+                    TabIndex =9
+                    Name ="Pacco"
+                    ControlSource ="Pacco"
+
+                    Begin
+                        Begin Label
+                            Left =8901
+                            Top =4139
+                            Width =1755
+                            Height =285
+                            Name ="Pacco Etichetta"
+                            Caption ="Pacco             Packet"
+                            EventProcPrefix ="Pacco_Etichetta"
+                        End
+                    End
+                End
+                Begin Label
+                    Left =5839
+                    Top =3281
+                    Width =464
+                    Height =457
+                    Name ="Etichetta24"
+                    Caption ="mm."
+                End
+                Begin Label
+                    Left =8402
+                    Top =3281
+                    Width =329
+                    Height =457
+                    Name ="Etichetta25"
+                    Caption ="Kg."
+                End
+                Begin Label
+                    Left =8900
+                    Top =3287
+                    Width =269
+                    Height =442
+                    Name ="Etichetta26"
+                    Caption ="n."
+                End
+                Begin Label
+                    Left =8901
+                    Top =4417
+                    Width =269
+                    Height =382
+                    Name ="Etichetta27"
+                    Caption ="n."
+                End
+            End
+        End
+        Begin PageFooter
+            Height =0
+            Name ="PièDiPaginaPagina"
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+        End
+    End
+End

@@ -1,0 +1,41 @@
+Version =21
+VersionRequired =20
+Checksum =-1731196239
+Begin Form
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =5669
+    DatasheetFontHeight =10
+    Left =600
+    Top =330
+    Right =8055
+    Bottom =4080
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x7e2a6dec74ace140
+    End
+    DatasheetFontName ="Arial"
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin FormHeader
+            Height =623
+            BackColor =32768
+            Name ="IntestazioneMaschera"
+        End
+        Begin Section
+            Height =1190
+            BackColor =6723891
+            Name ="Corpo"
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="PièDiPaginaMaschera"
+        End
+    End
+End
