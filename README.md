@@ -23,13 +23,13 @@ Tables `Generale` (orders and packs) and `Stampe` (printed labels).
 
 ## Technology
 
-Microsoft Access 2000–2003 format (.mdb), forms, report and macros.
+db, 2000–2003 format (.mdb), forms, report and macros.
 
 ## Repository contents
 
 | Path | Content |
 |---|---|
-| `database/` | The Access application, emptied of all data. |
+| `database/` | The database application, emptied of all data. |
 | `source/` | Plain-text export (UTF-8) of forms, reports, macros, VBA modules (`SaveAsText`) and of the SQL of every query. |
 | `docs/schema.md` | Tables and fields. |
 
@@ -39,13 +39,13 @@ The database is published **empty**: it has been rebuilt in a new file from the 
 
 ## Related repositories
 
-- [production-reel-labels-access](https://github.com/massimosbarbaro/production-reel-labels-access)
+- [production-reel-labels-db](https://github.com/massimosbarbaro/production-reel-labels-db)
 
 ## How to cite
 
 Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*).
 
-> Sbarbaro, Massimo. 2001. *Labels for packs of sheets by shipping order*. Software (db, 1999–2001), version 1.0. GitHub. https://github.com/massimosbarbaro/sheet-pack-labels-access.
+> Sbarbaro, Massimo. 2001. *Labels for packs of sheets by shipping order*. Software (db, 1999–2001), version 1.0. GitHub. https://github.com/massimosbarbaro/sheet-pack-labels-db.
 
 ## License
 

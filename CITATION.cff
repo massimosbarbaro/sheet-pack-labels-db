@@ -10,9 +10,9 @@ authors:
     orcid: "https://orcid.org/0009-0006-8965-9013"
 license: MIT
 date-released: "2001-06-28"
-repository-code: "https://github.com/massimosbarbaro/sheet-pack-labels-access"
+repository-code: "https://github.com/massimosbarbaro/sheet-pack-labels-db"
 keywords:
-  - "Microsoft Access"
+  - "db"
   - "label printing"
   - "shipping"
   - "paper sheets"
